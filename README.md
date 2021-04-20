@@ -1,4 +1,6 @@
-# TheCyber Entry
+# TheCyber Gatekey
+
+Script to gain entry to decentralized club TheCyber.
 
 ## Development
 
