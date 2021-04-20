@@ -8,7 +8,7 @@ require('solidity-coverage');
 
 module.exports = {
   solidity: {
-    version: '0.8.1',
+    version: '0.4.19',
     settings: {
       optimizer: {
         enabled: true,
