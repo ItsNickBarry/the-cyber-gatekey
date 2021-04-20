@@ -1,5 +1,5 @@
 {
-  "name": "the-cyber-entry",
+  "name": "the-cyber-gatekey",
   "version": "0.0.0",
   "keywords": [
     "hardhat",
@@ -10,7 +10,8 @@
     "ether",
     "eth",
     "buidler",
-    "wow"
+    "wow",
+    "the-cyber"
   ],
   "author": "Nick Barry",
   "license": "UNLICENSED",
