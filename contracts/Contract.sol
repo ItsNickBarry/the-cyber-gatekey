@@ -14,5 +14,7 @@ contract Contract {
       passcode,
       bytes8(uint64(~keccak256(passcode, address(this))))
     );
+
+    selfdestruct(msg.sender);
   }
 }
