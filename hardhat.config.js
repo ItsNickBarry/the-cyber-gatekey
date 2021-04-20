@@ -18,6 +18,12 @@ module.exports = {
   },
 
   networks: {
+    hardhat: {
+      forking: {
+        url: `${ process.env.FORK_URL }`,
+      },
+    },
+
     generic: {
       url: `${ process.env.NODE_URL }`,
       accounts: {
