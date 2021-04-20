@@ -1,10 +1,7 @@
 require('dotenv').config();
 
 require('@nomiclabs/hardhat-waffle');
-require('hardhat-docgen');
 require('hardhat-gas-reporter');
-require('hardhat-spdx-license-identifier');
-require('solidity-coverage');
 
 module.exports = {
   solidity: {
@@ -32,17 +29,7 @@ module.exports = {
     },
   },
 
-  docgen: {
-    clear: true,
-    runOnCompile: true,
-  },
-
   gasReporter: {
     enabled: process.env.REPORT_GAS === 'true',
-  },
-
-  spdxLicenseIdentifier: {
-    overwrite: false,
-    runOnCompile: true,
   },
 };
